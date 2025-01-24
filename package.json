@@ -6,16 +6,34 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "expo lint"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@expo-google-fonts/lato": "^0.2.3",
+    "@expo-google-fonts/oswald": "^0.2.3",
     "expo": "~52.0.27",
+    "expo-font": "~13.0.3",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.6"
+    "react-native": "0.76.6",
+    "react-native-paper": "^5.13.1",
+    "react-native-safe-area-context": "^5.1.0",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@eslint/js": "^9.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-native": "^5.0.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2"
   },
   "private": true
 }
